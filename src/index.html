@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link href="./output.css" rel="stylesheet">
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body class="bg-blue-pale">
+<main class="flex flex-col bg-pattern-mobile bg-no-repeat md:bg-pattern-desktop">
+    <section class="mt-16 w-[327px] h-[567px] mx-auto bg-white rounded-2xl ">
+        <header>
+            <img src="../images/illustration-hero.svg" alt="illustration hero" class="rounded-t-2xl">
+        </header>
+        <div class="p-8 flex flex-col items-center">
+            <h1 class="text-[22px] text-blue-dark font-black mb-4 font-red-hat-display">Order Summary</h1>
+
+            <p class="mb-4 text-blue-desaturated text-[15px] text-center font-red-hat-display font-medium">You can now
+                listen to
+                millions of songs, audiobooks, and podcasts on any
+                device anywhere you like!</p>
+
+            <div class="flex flex-row bg-blue-veryPale w-[279px] h-[81px] rounded-lg p-4 justify-between">
+                <div class="w-12 h-12 rounded-full bg-blue-pale">
+                    <img src="../images/icon-music.svg" alt="music icon">
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-[14px] font-black font-red-hat-display text-blue-dark ">Annual Plan</p>
+                    <span class="text-[14px] font-medium font-red-hat-display text-blue-desaturated"> $59.99/year</span>
+                </div>
+                <button class="text-blue-bright underline text-[13px] font-red-hat-display font-bold hover:no-underline hover:text-blue-brightHover">Change</button>
+            </div>
+
+            <button class="text-white bg-blue-bright w-full p-3 rounded-xl drop-shadow-2xl my-5 font-red-hat-display font-black text-[15px] hover:bg-blue-brightHover">Proceed to Payment</button>
+            <button class="font-red-hat-display font-black text-[15px] text-blue-desaturated hover:text-blue-dark">Cancel Order</button>
+        </div>
+    </section>
+
+    <div class="attribution my-2">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.frontendmentor.io/profile/Sagnunes">Sérgio Nunes</a>.
+    </div>
+</main>
+</body>
+</html>
